@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reaction Timer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Reaction Timer</h1>
+    <div id="game-setup">
+      <h2>Select Mode</h2>
+      <button id="single-player-btn">Single Player</button>
+      <button id="two-player-btn">Two Players</button>
+    </div>
+
+    <div id="game-area" class="hidden">
+      <p id="player-turn">Player 1's Turn</p>
+      <div id="game-board">
+        <p id="instructions">Click the target as fast as you can!</p>
+        <div id="target"></div>
+      </div>
+    </div>
+
+    <div id="game-over" class="hidden">
+      <h2>Game Over!</h2>
+      <p id="result"></p>
+      <button id="next-game-btn">Continue to Next Game</button>
+      <button id="play-again-btn">Play Again</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
